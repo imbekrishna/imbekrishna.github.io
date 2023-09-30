@@ -1,0 +1,101 @@
+*{
+    font-family: "Dosis", sans-serif;
+  }
+  
+  html{
+    font-size: 16px;
+  }
+  
+  body{
+    background-color:#DFEEF7;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    color: #212529;
+  }
+  
+  #title{
+    font-family: "Titan One", display;
+    color: #69221B;
+    letter-spacing: 0.2rem;
+  }
+  
+  h2{
+    margin: 5px 0;
+    color: #69221B;
+    text-align: center;
+  }
+  
+  #img-div{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  
+  #image{
+    max-width: 100%;
+    border: 5px solid #69221B;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    height: auto;
+    display: block;
+  }
+  
+  #img-caption{
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  #tribute-info{
+    margin-top: 2rem;
+  }
+  
+  li{
+    font-size: 1.3rem;
+    margin: 10px 0;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+  }
+  
+  p{
+    font-size: 1.2rem;
+  }
+  
+  #tribute-link{
+    text-decoration: none;
+  }
+  
+  #tribute-link:visited{
+    color:#69221B;
+  }
+  
+  #tribute-link:hover{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+  
+  blockquote {
+    margin: 0;
+  }
+  
+  blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+  }
+  
+  blockquote p::before {
+    content: '\201C';
+  }
+  
+  blockquote p::after {
+    content: '\201D';
+  }
+  
